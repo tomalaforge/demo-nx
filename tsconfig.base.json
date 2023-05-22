@@ -15,7 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@demo/shared": ["libs/shared/src/index.ts"]
+      "@demo/shared": ["libs/shared/src/index.ts"],
+      "@demo/sphinx/admin": ["libs/sphinx/admin/src/index.ts"],
+      "@demo/sphinx/user": ["libs/sphinx/user/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

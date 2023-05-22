@@ -1,11 +1,12 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { SphinxAdminModule } from '@demo/sphinx/admin';
+import { SphinxUserModule } from '@demo/sphinx/user';
 import { AppComponent } from './app.component';
-import { NxWelcomeComponent } from './nx-welcome.component';
 
 @NgModule({
-  declarations: [AppComponent, NxWelcomeComponent],
-  imports: [BrowserModule],
+  imports: [BrowserModule, SphinxAdminModule, SphinxUserModule],
+  declarations: [AppComponent],
   providers: [],
   bootstrap: [AppComponent],
 })
