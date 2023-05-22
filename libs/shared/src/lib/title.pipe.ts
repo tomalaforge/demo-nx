@@ -5,6 +5,6 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class TitlePipe implements PipeTransform {
   transform(value: string): string {
-    return `${value}Title`;
+    return `${value}Titles`;
   }
 }
